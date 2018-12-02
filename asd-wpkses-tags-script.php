@@ -6,12 +6,12 @@
  * @package ASD_wp_kses_Script_Tags
  * Plugin Name:    ASD wp_kses Script Tags
  * Plugin URI:     https://artisansitedesigns.com/
- * Description:    
+ * Description:
  * Author:         Michael H Fahey
  * Author URI:     https://artisansitedesigns.com/staff/michael-h-fahey/
  * Text Domain:    asd_script_tags_wpkses
  * License:        GPL3
- * Version:        1.201811241
+ * Version:        1.201812011
  *
  * ASD Script Tags wp_kses is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -43,8 +43,8 @@ if ( ! defined( 'ASD_SCRIPT_TAGS_WPKSES_URL' ) ) {
 require_once 'includes/asd-admin-menu/asd-admin-menu.php';
 
 global $allowedposttags;
-$allowedposttags['script'] = array ( 
-         'type' => array(),
+$allowedposttags['script'] = array(
+	'type' => array(),
 );
 
 
